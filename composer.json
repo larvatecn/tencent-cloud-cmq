@@ -1,0 +1,36 @@
+{
+  "name": "larva/tencent-cloud-cmq",
+  "description": "Tencent cloud CMQ php sdk",
+  "keywords": [
+    "tencent",
+    "cloud",
+    "cmq"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Larva Team",
+      "email": "support@larva.com.cn"
+    }
+  ],
+  "require": {
+    "ext-xmlreader": "*",
+    "ext-xmlwriter": "*",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^6.5 || ^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TencentCloudCMQ\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TencentCloudCMQ\\Tests\\": "tests/"
+    }
+  }
+}
